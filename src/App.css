@@ -1,0 +1,118 @@
+/* General App Styling */
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fc; /* Light background color */
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #007bff; /* Bootstrap primary color */
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+h3, h4 {
+  margin-top: 20px;
+  color: #495057; /* Bootstrap dark color */
+  text-transform: capitalize;
+}
+
+div {
+  font-size: 1.2rem;
+  color: #6c757d; /* Bootstrap secondary color */
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff; /* White background for contrast */
+  padding: 30px;
+  border-radius: 12px; /* Smooth rounded corners */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+}
+
+/* Form Controls */
+.form-control {
+  font-size: 1.2rem;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 2px solid #ced4da;
+  transition: border-color 0.3s ease;
+}
+
+/* Form Control on Focus */
+.form-control:focus {
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25); /* Subtle focus shadow */
+}
+
+/* Buttons */
+button {
+  margin-top: 10px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effect for Buttons */
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  color: white;
+  transform: translateY(-3px); /* Slight pop effect on hover */
+}
+
+/* Merged, Filtered, and Search Result Containers */
+.result-container {
+  background-color: #e9ecef; /* Light grey background for results */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #495057;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+}
+
+.result-container div {
+  font-size: 1.3rem;
+  color: #343a40; /* Darker text for result clarity */
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h3, h4 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px 18px;
+  }
+
+  .form-control {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .result-container {
+    font-size: 1rem;
+    padding: 15px;
+  }
+}
