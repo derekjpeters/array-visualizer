@@ -14,10 +14,11 @@ Before running the project, you need to install the following packages:
    ```bash
    npm install react-bootstrap bootstrap
    
-   ``` npm install react-icons
+   npm install react-icons
+
    **Imports**: 
    
-   ```import { FaPlus, FaFilter, FaSearch } from 'react-icons/fa';
+   import { FaPlus, FaFilter, FaSearch } from 'react-icons/fa';
 
 
 ### `npm start`
